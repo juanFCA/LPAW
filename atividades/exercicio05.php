@@ -1,6 +1,6 @@
 <?php include_once "../visao/cabecalho.php"?>
 
-<div class="container">
+    <div class="container">
         <div class="card mt-5">
             <div class="card-header">Exercício 05</div>
             <div class="card-body">
@@ -22,7 +22,7 @@
                     <button type="submit" class="btn btn-primary">Calcular Média e Situação</button>
                 </form>     
                 <?php 
-                    if (isset($_POST["nota1"]) && isset($_POST["nota2"])) {
+                    if (isset($_POST["nota1"]) && isset($_POST["nota2"]) && && isset($_POST["nota3"])) {
                         if(!empty($_POST["nota1"])) {
                             $a = $_POST["nota1"];
                         } else {
